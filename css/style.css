@@ -1,0 +1,216 @@
+#game{
+    width: 1050px;
+    height: 555px;
+    margin: 100px 18%;
+}
+
+#game_area{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("images/game_background.jpg");
+    background-size: 100%;
+    display: block;
+}
+
+
+/*--------------- Стиль для блока начала игры ---------------*/
+
+#start_block{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("images/start_background.jpg");
+    background-size: 100%;
+    display: block;
+}
+
+#start_block h1{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#start_button{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    width: 107px;
+    height: 45px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    cursor: pointer;
+}
+
+/*--------------- Стиль для кнопки старта игры при наведении ---------------*/
+
+.shadow{
+    text-shadow: 1px 1px 15px white;
+}
+
+/*--------------- Стиль для блока конца игры ---------------*/
+
+
+#end_block{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("images/end_game.jpg");
+    background-size: 100%;
+    display: block;
+}
+
+#end_block h1{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#end_block span{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+
+#restart_button{
+    
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    cursor: pointer;
+}
+
+
+/*--------------- Div-ы для персонажей в зданиях ---------------*/
+
+.enemy_side{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#door_saloon{
+    width: 63px;
+    height: 100px;
+    position: absolute;
+    
+    top: 290px;
+    left: 545px;
+    overflow: hidden;
+}
+
+#door_sherif{
+    width: 63px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    left: 875px;
+    overflow: hidden;
+}
+
+#door_bank{
+    width: 63px;
+    height: 100px;
+    position: absolute;
+    
+    top: 309px;
+    left: 340px;
+    overflow: hidden;
+}
+
+/*--------------- Div-ы для персонажей в окнах ---------------*/
+
+.enemy_up{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    
+}
+
+#window_1{
+    width: 30px;
+    height: 30px;
+    top: 155px;
+    left: 440px;
+    position: absolute;
+   
+    overflow: hidden;
+}
+#window_2{
+    width: 30px;
+    height: 30px;
+    top: 155px;
+    left: 510px;
+    position: absolute;
+    
+    overflow: hidden;
+}
+#window_3{
+    width: 30px;
+    height: 30px;
+    top: 155px;
+    left: 580px;
+    position: absolute;
+   
+    overflow: hidden;
+}
+#window_4{
+    width: 30px;
+    height: 30px;
+    top: 155px;
+    left: 660px;
+    position: absolute;
+    
+    overflow: hidden;
+}
+#window_5{
+    width: 30px;
+    height: 30px;
+    top: 265px;
+    left: 50px;
+    position: absolute;
+    
+    overflow: hidden;
+}
+
+/*--------------- набранные очки ---------------*/
+
+#score{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    width: 107px;
+    height: 45px;
+    position: absolute;
+    top: 505px;
+    left: 20px;
+}
+
+/*--------------- Время до конца игры ---------------*/
+
+#time{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    width: 138px;
+    height: 45px;
+    position: absolute;
+    top: 505px;
+    left: 133px;
+}
